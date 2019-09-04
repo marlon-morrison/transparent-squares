@@ -1,4 +1,6 @@
-
+body {
+    background: #000;
+}
 .parent {
     width: 600px;
     height: 600px;
