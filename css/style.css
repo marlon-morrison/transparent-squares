@@ -1,0 +1,89 @@
+
+.parent {
+    width: 600px;
+    height: 600px;
+    background: black;
+    position: relative;
+    margin:30px auto 0;
+}
+.block {
+    width: 190px;
+    height: 190px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    position: absolute;
+    border: 2px solid white;
+   
+}
+
+@keyframes mymove {
+    50% {z-index: 66;
+    opacity: 1.5;}
+  }
+.block-one{
+    background: purple;
+    top: 0px;left: 0px;
+    animation: mymove 27s  linear;
+    opacity: 0.5;
+}
+.block-two { 
+    background: red;
+    top: 50px;left: 50px;
+  
+    opacity: 0.5;
+    animation: mymove 24s  linear;
+    
+}
+.block-three {
+    background: purple;
+    top: 100px;left: 100px;
+    
+    opacity: 0.5;
+    animation: mymove 21s  linear;
+}
+.block-four {
+    background: red;
+    top: 150px;left: 150px;
+   
+    opacity: 0.5;
+    animation: mymove 18s  linear;
+    
+}
+.block-five {
+    background: purple;
+    bottom: 200px;right: 200px;
+    opacity: 0.5;
+   
+    animation: mymove 15s  linear;
+}
+.block-six {
+	background: red;
+    bottom: 150px;right: 150px;
+   
+    opacity: 0.5;
+    animation: mymove 12s  linear;
+    
+}
+.block-seven {
+    background: purple;
+    bottom: 100px;right: 100px;
+    
+    opacity: 0.5;
+    animation: mymove 9s  linear;
+}
+.block-eight {
+    background: red;
+    bottom: 50px;right: 50px;
+    
+    opacity: 0.5;
+    animation: mymove 6s  linear;
+    
+}
+.block-nine {
+    background: purple;
+    bottom: 0px;right: 0px;
+    animation: mymove 3s  linear;
+    opacity: 0.5;
+}
